@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4b4b4b;
+        stroke-linecap: round;
+        stroke-width: 27.778px;
+        stroke-dasharray: 2.778 19.444 2.778 55.556;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #1fb8ff;
+      }
+
+      .cls-1, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke-width: 14.333px;
+      }
+
+      .cls-3 {
+        font-size: 91.667px;
+        fill: #fff;
+        font-family: "BankGothic Lt BT";
+        font-weight: 300;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+        stroke-width: 25px;
+      }
+    </style>
+  </defs>
+  <path id="Tvar_1" data-name="Tvar 1" class="cls-1" d="M551,281"/>
+  <circle id="Elipsa_1" data-name="Elipsa 1" class="cls-2" cx="500" cy="500" r="400"/>
+  <text id="KONTAKTY" class="cls-3" x="237.127" y="277.979">KONTAKTY</text>
+  <path id="Contacts" class="cls-4" d="M683.3,737H317.7c-25.135,0-45.7-17.606-45.7-39.125V463.125C272,441.606,292.565,424,317.7,424H683.3c25.135,0,45.7,17.606,45.7,39.125v234.75C729,719.394,708.435,737,683.3,737Zm0-273.875L500.5,560.937,317.7,463.125V502.25l182.8,97.812L683.3,502.25V463.125Z"/>
+</svg>

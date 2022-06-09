@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4b4b4b;
+        stroke-linecap: round;
+        stroke-width: 27.778px;
+        stroke-dasharray: 2.778 19.444 2.778 55.556;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #1fb8ff;
+      }
+
+      .cls-1, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke-width: 14.333px;
+      }
+
+      .cls-3 {
+        font-size: 91.667px;
+        fill: #fff;
+        font-family: "BankGothic Lt BT";
+        font-weight: 300;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+        stroke-width: 22.222px;
+      }
+    </style>
+  </defs>
+  <path id="Tvar_1" data-name="Tvar 1" class="cls-1" d="M551,281"/>
+  <circle id="Elipsa_1" data-name="Elipsa 1" class="cls-2" cx="500" cy="500" r="400"/>
+  <text id="PROFIL" class="cls-3" x="319.081" y="277.703">PROFIL</text>
+  <path id="Aboutme" class="cls-4" d="M311,753V707.375c0-61.594,126.537-91.25,191-91.25s191,29.656,191,91.25V753H311ZM502,570.5c-52.525,0-95.5-41.063-95.5-91.25S449.475,388,502,388s95.5,41.062,95.5,91.25S554.525,570.5,502,570.5Z"/>
+</svg>

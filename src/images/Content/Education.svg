@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4b4b4b;
+        stroke-linecap: round;
+        stroke-width: 27.778px;
+        stroke-dasharray: 2.778 19.444 2.778 55.556;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #1fb8ff;
+      }
+
+      .cls-1, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke-width: 14.333px;
+      }
+
+      .cls-3 {
+        font-size: 86.111px;
+        fill: #fff;
+        font-family: "BankGothic Lt BT";
+        font-weight: 300;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+        stroke-width: 22.222px;
+      }
+    </style>
+  </defs>
+  <path id="Tvar_1" data-name="Tvar 1" class="cls-1" d="M551,281"/>
+  <circle id="Elipsa_1" data-name="Elipsa 1" class="cls-2" cx="500" cy="500" r="400"/>
+  <text id="KVALIFIKACE" class="cls-3" x="194.648" y="324.279">KVALIFIKACE</text>
+  <path id="Kvalifiakce" class="cls-4" d="M655.636,676V534.55L501,635,312,512,501,389,690,512V676H655.636Zm-34.363-77.9v82L501,758,380.727,680.1v-82L501,676Z"/>
+</svg>

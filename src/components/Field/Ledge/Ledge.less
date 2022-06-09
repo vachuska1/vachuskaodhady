@@ -1,0 +1,38 @@
+.Ledge {
+  height: 150px;
+  width: 100vw;
+  margin-bottom: 40px;
+  &__Menu {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 1.6rem;
+  }
+  &__Name {
+    padding-top: 25px;
+    color: rgb(12, 200, 252);
+    -webkit-text-stroke: 0.8px black;
+  }
+  &__Logo {
+    padding-top: 5px;
+    background-position: center;
+    width: 260px;
+    height: 120px;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .Ledge {
+    &__Menu {
+      display: block;
+    }
+    &__Name {
+      display: none;
+    }
+    &__Logo {
+      width: 80vw;
+      height: 160px;
+    }
+  }
+}

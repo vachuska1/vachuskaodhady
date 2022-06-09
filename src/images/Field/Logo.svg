@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="240" viewBox="0 0 400 240">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #28B1FF;
+        stroke-width: 6.07px;
+      }
+
+      .cls-2, .cls-3 {
+        font-size: 60px;
+        fill: #1D3849;
+        font-family: "BankGothic Lt BT";
+        font-weight: 500;
+      }
+
+      .cls-3 {
+        mix-blend-mode: darken;
+      }
+    </style>
+  </defs>
+  <ellipse id="Elipsa_1" data-name="Elipsa 1" class="cls-1" cx="199.5" cy="120.5" rx="200.5" ry="111.5"/>
+  <text id="Odhady_" data-name="Odhady " class="cls-2" x="81" y="87">Odhady</text>
+  <text id="VACHUŠKA" class="cls-2" transform="translate(29.14 153.877) scale(0.943)">VACHUŠKA</text>
+  <text id="_" data-name="©" class="cls-3" transform="translate(283.176 201.619) scale(0.663)">©</text>
+</svg>

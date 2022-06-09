@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #4b4b4b;
+        fill-rule: evenodd;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #1fb8ff;
+      }
+
+      .cls-1 {
+        stroke-linecap: round;
+        stroke-width: 27.778px;
+        stroke-dasharray: 2.778 19.444 2.778 55.556;
+      }
+
+      .cls-2 {
+        stroke: #fdfdfd;
+        stroke-width: 25px;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke-width: 14.333px;
+      }
+    </style>
+  </defs>
+  <path id="Tvar_1" data-name="Tvar 1" class="cls-1" d="M551,281"/>
+  <path id="Tvar_8" data-name="Tvar 8" class="cls-2" d="M534.625,717V673.4h-74.25V717H349V324.6h55.687V281H590.312v43.6H646V717H534.625ZM478.937,390H441.812v43.6h37.125V390Zm0,87.2H441.812v43.6h37.125V477.2Zm0,87.2H441.812V608h37.125V564.4ZM553.187,390H516.062v43.6h37.125V390Zm0,87.2H516.062v43.6h37.125V477.2Zm0,87.2H516.062V608h37.125V564.4Z"/>
+  <circle id="Elipsa_1" data-name="Elipsa 1" class="cls-3" cx="500" cy="500" r="400"/>
+</svg>
