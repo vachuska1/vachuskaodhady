@@ -1,38 +1,43 @@
 .Ledge {
-  height: 150px;
-  width: 100vw;
-  margin-bottom: 40px;
   &__Menu {
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: grid;
+    width: 100vw;
+    grid-template: " logo name " auto/ 50vw 50vw;
     font-size: 1.6rem;
   }
   &__Name {
-    padding-top: 25px;
+    display: grid;
+    padding-top: 60px;
+    margin-right: 3vw;
+    grid-area: name;
+    text-align: center;
     color: rgb(12, 200, 252);
     -webkit-text-stroke: 0.8px black;
   }
   &__Logo {
-    padding-top: 5px;
-    background-position: center;
-    width: 260px;
-    height: 120px;
+    display: grid;
+    margin-left: 5vw;
+    padding-top: 50px;
+    justify-content: center;
+    background-size: contain;
+    grid-area: logo;
+    width: 35vw;
+    height: 100px;
     background-repeat: no-repeat;
   }
 }
 @media only screen and (max-width: 550px) {
   .Ledge {
     &__Menu {
-      display: block;
+      grid-template: "logo" auto/ 100vw;
+    }
+    &__Logo {
+      display: grid;
+      grid-area: logo;
+      width: 90vw;
     }
     &__Name {
       display: none;
-    }
-    &__Logo {
-      width: 80vw;
-      height: 160px;
     }
   }
 }

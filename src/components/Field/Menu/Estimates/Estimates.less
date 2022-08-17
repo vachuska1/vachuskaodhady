@@ -1,7 +1,7 @@
 .Estimates {
   width: 1000px;
   height: auto;
-  margin: 30px auto;
+  margin: 50px auto;
   &__HeadText {
     font-size: 35px;
     color: rgb(37, 172, 250);
@@ -21,8 +21,17 @@
     margin: 15px 0;
     text-decoration: underline;
     cursor: pointer;
+    color: black;
   }
   &__ActiveText {
     font-weight: 700;
+  }
+}
+@media only screen and (max-width: 999px) {
+  .Estimates {
+    line-break: auto;
+    width: 94vw;
+    margin: 50px 3vw;
+    padding-right: 30px;
   }
 }

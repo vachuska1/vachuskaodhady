@@ -1,35 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
   <defs>
     <style>
       .cls-1 {
         fill: #4b4b4b;
         stroke-linecap: round;
+        stroke-width: 27.778px;
         stroke-dasharray: 2.778 19.444 2.778 55.556;
       }
 
-      .cls-1, .cls-3 {
+      .cls-1, .cls-2 {
         stroke: #1fb8ff;
       }
 
-      .cls-1, .cls-2 {
-        stroke-width: 27.778px;
+      .cls-1, .cls-4 {
         fill-rule: evenodd;
       }
 
-      .cls-2, .cls-3 {
+      .cls-2, .cls-4 {
         fill: none;
       }
 
       .cls-2 {
-        stroke: #fdfdfd;
+        stroke-width: 14.333px;
       }
 
       .cls-3 {
-        stroke-width: 14.333px;
+        font-size: 91.667px;
+        fill: #fff;
+        font-family: "BankGothic Lt BT";
+        font-weight: 300;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+        stroke-width: 22.222px;
       }
     </style>
+    <style bx:fonts="Actor">@import url(https://fonts.googleapis.com/css2?family=Actor%3Aital%2Cwght%400%2C400&amp;display=swap);</style>
   </defs>
   <path id="Tvar_1" data-name="Tvar 1" class="cls-1" d="M551,281"/>
-  <path id="Tvar_10" data-name="Tvar 10" class="cls-2" d="M763.5,395.576L534.122,622.411l0.012,0.012-86.02,85.068-0.012-.012-0.012.012-86.021-85.068,0.013-.012L283.5,544.7l86.02-85.068L448.1,537.344,677.476,310.509Z"/>
-  <circle id="Elipsa_1" data-name="Elipsa 1" class="cls-3" cx="500" cy="500" r="400"/>
+  <circle id="Elipsa_1" data-name="Elipsa 1" class="cls-2" cx="500" cy="500" r="400"/>
+  <text id="PROJEKTY" class="cls-3" style="font-family: Actor; font-size: 95px; font-weight: 400; white-space: pre;" x="265.438" y="283.868">PROJEKTY</text>
+  <path id="Tvar_12" data-name="Tvar 12" class="cls-4" d="M 716.446 469.647 L 506.226 695.909 L 506.237 695.921 L 427.4 780.774 L 427.389 780.762 L 427.378 780.774 L 348.541 695.921 L 348.552 695.909 L 276.536 618.397 L 355.373 533.544 L 427.391 611.056 L 637.609 384.794 L 716.446 469.647 Z"/>
 </svg>

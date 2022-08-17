@@ -1,6 +1,12 @@
 .Contacts {
-  margin-left: 16vw;
+  width: 1000px;
+  height: auto;
+  display: block;
+  margin: 50px auto;
   font-size: 35px;
+  &__Color {
+    color: rgb(37, 172, 250);
+  }
   &__Estimates {
     margin-top: 50px;
   }
@@ -19,11 +25,15 @@
     margin-top: 40px;
     font-size: 32px;
     display: flex;
+    color: rgb(0, 0, 0);
   }
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 999px) {
   .Contacts {
-    margin-left: 3vw;
+    line-break: auto;
+    width: 94vw;
+    margin: 50px 3vw;
+    padding-right: 30px;
     &__Logo {
       width: 50px;
       height: 50px;

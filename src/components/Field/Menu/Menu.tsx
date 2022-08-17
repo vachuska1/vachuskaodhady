@@ -10,19 +10,19 @@ export const Menu = () => {
         <NavLink to="/Projekty">
           <MenuCard
             classname="MenuCard MenuCard__One"
-            image="./src/images/Content/Project1.svg"
+            image="./src/images/Content/Project.svg"
           />
         </NavLink>
         <NavLink to="/Odhady">
           <MenuCard
             classname="MenuCard MenuCard__One"
-            image="./src/images/Content/Estimates1.svg"
+            image="./src/images/Content/Estimates.svg"
           />
         </NavLink>
         <NavLink to="/Kontakty">
           <MenuCard
             classname="MenuCard MenuCard__One"
-            image="./src/images/Content/Contact1.svg"
+            image="./src/images/Content/Contact.svg"
           />
         </NavLink>
         <NavLink to="/Cenik">

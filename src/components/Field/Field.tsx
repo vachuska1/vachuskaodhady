@@ -11,6 +11,7 @@ import { Contacts } from "./Menu/Contacts/Contacts";
 import { Profil } from "./Menu/Profil/Profil";
 import { Education } from "./Menu/Education/Education";
 import { Web } from "./Web/Web";
+import { Evaluated } from "./Menu/Evaluated/Evaluated";
 
 export const Field = () => {
   return (
@@ -26,6 +27,7 @@ export const Field = () => {
             <Route path="/Projekty" component={Projects} />
             <Route path="/Profil" component={Profil} />
             <Route path="/Kvalifikace" component={Education} />
+            <Route path="/Ocenovani" component={Evaluated} />
           </Switch>
         </div>
         <ForWeb />

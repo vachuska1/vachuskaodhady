@@ -8,7 +8,7 @@ import { MapWindow } from "./MapWindow/MapWindow";
 export const Contacts = () => {
   return (
     <>
-      <div className="Contacts">
+      <div className="Contacts Contacts__Color">
         Kontakty
         <div className="Contacts__Flex">
           <Logo

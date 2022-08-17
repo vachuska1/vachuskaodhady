@@ -1,5 +1,6 @@
 import * as React from "react";
 import "./ForWeb.less";
+import { BrowserRouter as Router, NavLink } from "react-router-dom";
 
 export const ForWeb = () => {
   return (
@@ -9,7 +10,9 @@ export const ForWeb = () => {
           Další odkazy
           <div className="ForWeb__Row">Jak odhad probíhá?</div>
           <div className="ForWeb__Row">Chcete se na něco zeptat</div>
-          <div className="ForWeb__Row">Co jsou to odhady nemovitosti?</div>
+          <NavLink to="/Ocenovani">
+            <div className="ForWeb__Row">Co jsou to odhady nemovitosti?</div>
+          </NavLink>
         </div>
         <div className="ForWeb__Contacts">
           Kontakty

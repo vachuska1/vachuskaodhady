@@ -16,12 +16,16 @@
     display: flex;
     justify-content: space-around;
   }
+  &__Contacts {
+    text-align: right;
+  }
   &__Row,
   &__RowUnder {
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     margin: 15px 0 0;
     font-size: 14px;
+    color: white;
     cursor: pointer;
   }
   &__Row {
@@ -32,7 +36,7 @@
 }
 @media only screen and (max-width: 550px) {
   .ForWeb {
-    font-size: 22px;
+    font-size: 18px;
     text-align: center;
     height: auto;
     &__Content {
@@ -41,12 +45,13 @@
       display: block;
     }
     &__Contacts {
+      text-align: center;
       margin-top: 10px;
       padding-bottom: 5px;
     }
     &__Row,
     &__RowUnder {
-      font-size: 14px;
+      font-size: 10px;
       margin: 5px 0 5px;
     }
   }
