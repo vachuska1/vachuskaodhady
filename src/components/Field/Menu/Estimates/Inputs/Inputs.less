@@ -1,0 +1,91 @@
+.Inputs {
+  width: 1000px;
+  display: block;
+  height: auto;
+  font-family: "Roboto, sans-serif";
+  margin: 0 auto;
+  font-size: 20px;
+  &__Text {
+    text-align: center;
+    font-weight: 600;
+    color: rgb(36, 36, 36);
+    margin: 10px 0;
+  }
+  &__Form {
+    margin: 20px auto;
+    display: grid;
+    grid-template: "name . number . email" 80px "message message message message message" 120px ". . . . button" 50px / 310px 20px 310px 20px 310px;
+  }
+  &__Number {
+    grid-area: number;
+  }
+  &__Name {
+    grid-area: name;
+  }
+  &__Email {
+    grid-area: email;
+  }
+  &__Number,
+  &__Name,
+  &__Email {
+    margin-bottom: 35px;
+  }
+  &__Message {
+    grid-area: message;
+    margin-bottom: 20px;
+    padding-bottom: 60px;
+  }
+  &__Submit {
+    grid-area: button;
+    width: 150px;
+    margin: 0 0 0 auto;
+    cursor: pointer;
+  }
+}
+input,
+button {
+  all: unset;
+  outline: none;
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+input,
+input::before,
+input:active {
+  border: 2px solid rgb(3, 163, 227);
+  background: rgb(158, 245, 255);
+  color: rgb(84, 84, 84);
+  padding-left: 5px;
+}
+button {
+  background: rgb(3, 163, 227);
+  color: whitesmoke;
+  text-align: center;
+  &:hover {
+    background: rgb(2, 124, 255);
+  }
+}
+@media only screen and (max-width: 999px) {
+  .Inputs {
+    font-size: 17px;
+    width: 100vw;
+    &__Form {
+      grid-template: "name . number . email" 80px "message message message message message" 120px "button button button button button" 50px / 30vw 3vw 29vw 3vw 30vw;
+    }
+    &__Submit {
+      width: 95vw;
+    }
+  }
+}
+@media only screen and (max-width: 550px) {
+  .Inputs {
+    font-size: 20px;
+    &__Form {
+      grid-template: "name name name name name" 80px "number number number number number" 80px "email email email email email" 80px "message message message message message" 120px "button button button button button" 50px / 30vw 3vw 29vw 3vw 30vw;
+    }
+  }
+}

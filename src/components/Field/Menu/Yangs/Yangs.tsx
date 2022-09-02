@@ -25,7 +25,7 @@ export const Yangs = () => {
         každá další bytová jednotka + 1500Kč
       </p>
       <p className="Yangs__Item">
-        Garáž - <strong>2500</strong> Kč/odhad
+        Garáž - <strong>2499</strong> Kč/odhad
       </p>
 
       <u>

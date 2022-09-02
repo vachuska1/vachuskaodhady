@@ -8,10 +8,14 @@ export const ForWeb = () => {
       <div className="ForWeb__Content">
         <div className="ForWeb__Links">
           Další odkazy
-          <div className="ForWeb__Row">Jak odhad probíhá?</div>
-          <div className="ForWeb__Row">Chcete se na něco zeptat</div>
+          <NavLink to="odhady">
+            <div className="ForWeb__Row ForWeb__Color">Chci odhad</div>
+          </NavLink>
           <NavLink to="/Ocenovani">
-            <div className="ForWeb__Row">Co jsou to odhady nemovitosti?</div>
+            <div className="ForWeb__Row">Co jsou odhady nemovitostí</div>
+          </NavLink>
+          <NavLink to="/Jakprobiha">
+            <div className="ForWeb__Row">Jak odhad probíhá</div>
           </NavLink>
         </div>
         <div className="ForWeb__Contacts">
@@ -26,3 +30,4 @@ export const ForWeb = () => {
     </div>
   );
 };
+``;

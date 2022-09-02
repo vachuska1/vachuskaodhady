@@ -12,6 +12,7 @@ import { Profil } from "./Menu/Profil/Profil";
 import { Education } from "./Menu/Education/Education";
 import { Web } from "./Web/Web";
 import { Evaluated } from "./Menu/Evaluated/Evaluated";
+import { HowEstim } from "./Menu/HowEstim/HowEstim";
 
 export const Field = () => {
   return (
@@ -28,6 +29,7 @@ export const Field = () => {
             <Route path="/Profil" component={Profil} />
             <Route path="/Kvalifikace" component={Education} />
             <Route path="/Ocenovani" component={Evaluated} />
+            <Route path="/Jakprobiha" component={HowEstim} />
           </Switch>
         </div>
         <ForWeb />

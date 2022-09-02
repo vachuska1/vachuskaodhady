@@ -44,14 +44,17 @@ export const Contacts = () => {
         </div>
       </div>
       <div className="Contacts Contacts__Estimates">
-        Adresa Sídla
+        Adresa sídla
         <div className="Contacts__Flex">
           <Logo
             name="Contacts__Logo"
             icon="./src/images/Icons/Residence.svg"
             alt="Sídlo"
           />
-          <Name classname="Contacts__Item" desc="Slatina 68, 34101" />
+          <Name
+            classname="Contacts__Item"
+            desc="Slatina 68, 34101, Horažďovice"
+          />
         </div>
       </div>
       <div className="Contacts Contacts__Estimates">
@@ -62,7 +65,7 @@ export const Contacts = () => {
             icon="./src/images/Icons/Town.svg"
             alt="Pobočka"
           />
-          <Name classname="Contacts__Item" desc="Mánesova 273/9, 370 01" />
+          <Name classname="Contacts__Item" desc="Mánesova 273/9, 370 01, ČB" />
         </div>
       </div>
       <MapWindow />

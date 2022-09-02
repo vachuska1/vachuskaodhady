@@ -11,7 +11,7 @@ export const Ledge = () => {
         </Link>
         <Link to="/">
           <div className="Ledge__Name">
-            Ing. Aleš Vachuška <br /> Odhady Nemovitostí
+            Ing. Aleš Vachuška <br /> Odhady nemovitostí
           </div>
         </Link>
       </div>

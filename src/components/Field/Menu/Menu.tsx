@@ -7,16 +7,16 @@ export const Menu = () => {
   return (
     <div className="Menu">
       <div className="Menu__Firstline">
-        <NavLink to="/Projekty">
-          <MenuCard
-            classname="MenuCard MenuCard__One"
-            image="./src/images/Content/Project.svg"
-          />
-        </NavLink>
         <NavLink to="/Odhady">
           <MenuCard
             classname="MenuCard MenuCard__One"
             image="./src/images/Content/Estimates.svg"
+          />
+        </NavLink>
+        <NavLink to="/Cenik">
+          <MenuCard
+            classname="MenuCard MenuCard__One"
+            image="./src/images/Content/Yangs.svg"
           />
         </NavLink>
         <NavLink to="/Kontakty">
@@ -25,10 +25,10 @@ export const Menu = () => {
             image="./src/images/Content/Contact.svg"
           />
         </NavLink>
-        <NavLink to="/Cenik">
+        <NavLink to="/Projekty">
           <MenuCard
             classname="MenuCard MenuCard__One"
-            image="./src/images/Content/Yangs.svg"
+            image="./src/images/Content/Project.svg"
           />
         </NavLink>
         <NavLink to="/Profil">
