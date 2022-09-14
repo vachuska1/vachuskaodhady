@@ -32,7 +32,7 @@ export const Contacts = () => {
             icon="./src/images/Icons/Email.svg"
             alt="emailová adresa"
           />
-          <Name classname="Contacts__Item" desc="info@odhadyvachuska.cz" />
+          <Name classname="Contacts__Item" desc="odhadyvachuska@gmail.com" />
         </div>
         <div className="Contacts__Flex">
           <Logo

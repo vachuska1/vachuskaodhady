@@ -28,7 +28,7 @@ export const Estimates = () => {
         </p>
         <p>
           Nebo jsem dostupný též na telefonním čísle 774104020 a emailové adrese
-          info@odhadyvachuska.cz
+          odhadyvachuska@gmail.com
         </p>
         <Inputs />
         <br />

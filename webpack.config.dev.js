@@ -21,8 +21,8 @@ module.exports = {
                 test: /\.tsx?$/,
                 loader: 'string-replace-loader',
                 options: {
-                    search: './API/',
-                    replace: 'http://localhost:8000/own_projects/personal/www.atraktivniregion_management.cz/src/API/',
+                    search: './src/API/',
+                    replace: 'http://localhost:8000/VachuskaOdhady/vachuskaodhady/src/API/',
                     flags: 'g'
                 }
             },
@@ -108,6 +108,6 @@ module.exports = {
         }),
     ],
     resolve: {
-        extensions: [ '.tsx', '.components', '.js', '.json' ],
+        extensions: [ '.tsx', '.ts', '.components', '.js', '.json' ],
     },
 };

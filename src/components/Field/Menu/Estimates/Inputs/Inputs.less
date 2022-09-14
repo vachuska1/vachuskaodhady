@@ -13,34 +13,54 @@
   }
   &__Form {
     margin: 20px auto;
-    display: grid;
-    grid-template: "name . number . email" 80px "message message message message message" 120px ". . . . button" 50px / 310px 20px 310px 20px 310px;
+    width: 100vw;
   }
-  &__Number {
-    grid-area: number;
+  &__Block {
+    width: 100vw;
+    display: block;
+    &--number,
+    &--name {
+      margin-bottom: 35px;
+      height: 44px;
+    }
+    &--email {
+      margin-bottom: 10px;
+      height: 44px;
+    }
+    &--info {
+      margin-bottom: 10px;
+      height: 85px;
+    }
   }
-  &__Name {
-    grid-area: name;
-  }
-  &__Email {
-    grid-area: email;
-  }
-  &__Number,
   &__Name,
-  &__Email {
-    margin-bottom: 35px;
+  &__Email,
+  &__Number {
+    width: 75vw;
+    height: 40px;
   }
   &__Message {
-    grid-area: message;
-    margin-bottom: 20px;
-    padding-bottom: 60px;
+    height: 40px;
+    width: 75vw;
+    padding-bottom: 40px;
   }
   &__Submit {
-    grid-area: button;
-    width: 150px;
-    margin: 0 0 0 auto;
+    width: 75vw;
+    justify-content: center;
+    padding: 20px 5px;
     cursor: pointer;
   }
+  &__Error {
+    margin-top: 6px;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+input {
+  height: 80px;
+}
+textarea {
+  height: 160px;
 }
 input,
 button {
@@ -71,21 +91,24 @@ button {
 }
 @media only screen and (max-width: 999px) {
   .Inputs {
+    width: 100%;
     font-size: 17px;
-    width: 100vw;
-    &__Form {
-      grid-template: "name . number . email" 80px "message message message message message" 120px "button button button button button" 50px / 30vw 3vw 29vw 3vw 30vw;
+    &__Block {
+      &--email {
+        width: 100vw;
+      }
     }
+    &__Name,
+    &__Email,
+    &__Number,
+    &__Message,
     &__Submit {
-      width: 95vw;
+      width: 90vw;
     }
   }
 }
 @media only screen and (max-width: 550px) {
   .Inputs {
     font-size: 20px;
-    &__Form {
-      grid-template: "name name name name name" 80px "number number number number number" 80px "email email email email email" 80px "message message message message message" 120px "button button button button button" 50px / 30vw 3vw 29vw 3vw 30vw;
-    }
   }
 }

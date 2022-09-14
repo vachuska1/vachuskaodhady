@@ -24,7 +24,7 @@ export const ForWeb = () => {
             Ing. Aleš Vachuška - Odhady nemovitostí
           </div>
           <div className="ForWeb__RowUnder">+420 774 104 020</div>
-          <div className="ForWeb__RowUnder">info@odhadyvachuska.cz</div>
+          <div className="ForWeb__RowUnder">odhadyvachuska@gmail.com</div>
         </div>
       </div>
     </div>

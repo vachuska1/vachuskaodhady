@@ -11,10 +11,10 @@ export const Yangs = () => {
         <div className="Yangs__Header">Stavby</div>
       </u>
       <p className="Yangs__Item">
-        Rodinný dům - <strong>4999</strong> Kč/odhad
+        Rodinný dům - <strong>od 5999</strong> Kč/odhad
       </p>
       <p className="Yangs__Item">
-        Byt - <strong>3999</strong> Kč/odhad
+        Byt - <strong>5999</strong> Kč/odhad
       </p>
       <p className="Yangs__Item">
         Bytový dům (do 2 bytových jednotek včetně) - <strong>6999</strong>{" "}
@@ -25,17 +25,17 @@ export const Yangs = () => {
         každá další bytová jednotka + 1500Kč
       </p>
       <p className="Yangs__Item">
-        Garáž - <strong>2499</strong> Kč/odhad
+        Garáž - <strong>3999</strong> Kč/odhad
       </p>
 
       <u>
         <div className="Yangs__Header">Podnikání</div>
       </u>
       <p className="Yangs__Item">
-        Kanceláře - <strong>4999 </strong>Kč/odhad
+        Kanceláře - <strong>5999 </strong>Kč/odhad
       </p>
       <p className="Yangs__Item">
-        Dílny - <strong>3999-4999 </strong> Kč/odhad
+        Dílny - <strong>4999 </strong> Kč/odhad
       </p>
 
       <u>
@@ -44,13 +44,13 @@ export const Yangs = () => {
         </div>
       </u>
       <p className="Yangs__Item">
-        Pozemky - <strong>3999-4999 </strong> Kč/odhad
+        Pozemky - <strong>od 3999 </strong> Kč/odhad
       </p>
       <p className="Yangs__Item">
-        Zahrady - <strong>2999-3999 </strong> Kč/odhad
+        Zahrady - <strong> od 3499 </strong> Kč/odhad
       </p>
       <p className="Yangs__Item">
-        Sady - <strong>2499-3499 </strong> Kč/odhad
+        Sady - <strong>od 2999 </strong> Kč/odhad
       </p>
     </div>
   );
