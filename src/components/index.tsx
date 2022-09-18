@@ -4,8 +4,8 @@ import { Field } from "./Field/Field";
 import "./index.less";
 
 ReactDOM.render(
-  <div>
-    <Field />
-  </div>,
-  document.getElementById("root")
+	<div>
+		<Field />
+	</div>,
+	document.getElementById("root"),
 );

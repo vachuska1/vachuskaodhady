@@ -15,26 +15,26 @@ import { Evaluated } from "./Menu/Evaluated/Evaluated";
 import { HowEstim } from "./Menu/HowEstim/HowEstim";
 
 export const Field = () => {
-  return (
-    <BrowserRouter>
-      <div className="Field">
-        <Ledge />
-        <div className="Field__Content">
-          <Switch>
-            <Route path="/" exact component={Menu} />
-            <Route path="/Cenik" component={Yangs} />
-            <Route path="/Odhady" component={Estimates} />
-            <Route path="/Kontakty" component={Contacts} />
-            <Route path="/Projekty" component={Projects} />
-            <Route path="/Profil" component={Profil} />
-            <Route path="/Kvalifikace" component={Education} />
-            <Route path="/Ocenovani" component={Evaluated} />
-            <Route path="/Jakprobiha" component={HowEstim} />
-          </Switch>
-        </div>
-        <ForWeb />
-        <Web />
-      </div>
-    </BrowserRouter>
-  );
+	return (
+		<BrowserRouter>
+			<div className="Field">
+				<Ledge />
+				<div className="Field__Content">
+					<Switch>
+						<Route path="/" exact component={Menu} />
+						<Route path="/Cenik" component={Yangs} />
+						<Route path="/Odhady" component={Estimates} />
+						<Route path="/Kontakty" component={Contacts} />
+						<Route path="/Projekty" component={Projects} />
+						<Route path="/Profil" component={Profil} />
+						<Route path="/Kvalifikace" component={Education} />
+						<Route path="/Ocenovani" component={Evaluated} />
+						<Route path="/Jakprobiha" component={HowEstim} />
+					</Switch>
+				</div>
+				<ForWeb />
+				<Web />
+			</div>
+		</BrowserRouter>
+	);
 };

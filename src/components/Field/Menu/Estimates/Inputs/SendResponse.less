@@ -1,0 +1,40 @@
+.sendResponse {
+	&__overlay {
+		position: fixed;
+		top: 0;
+		left: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100vw;
+		height: 100vh;
+		background-color: rgba(3, 245, 237);
+		z-index: 2;
+	}
+
+	&__block {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&__message {
+		font-size: 32px;
+		color: white;
+		margin-bottom: 20px;
+	}
+
+	&__link {
+		padding: 12px 24px;
+		font-size: 24px;
+		text-decoration: none;
+		color: white !important;
+		background-color: black;
+		border-radius: 8px;
+		cursor: pointer;
+
+		&:hover {
+			opacity: 0.6;
+		}
+	}
+}
