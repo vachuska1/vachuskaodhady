@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="441 1706 7011 2544">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: black;
+        stroke: #21abcd;
+        stroke-width: 50px;
+      }
+
+      .cls-2 {
+        font-size: 812.5px;
+        font-family: Arial;
+      }
+
+      .cls-2, .cls-3 {
+        fill: white;
+      }
+
+      .cls-3 {
+        font-size: 445.833px;
+        font-family: "Myriad Pro";
+      }
+    </style>
+  </defs>
+  <text id="ODHADY" class="cls-2" x="1764.929" y="2676.372">ODHADY</text>
+  <g transform="matrix(34.209717, 0, 0, 36.894085, 5500.151028, 1934.06842)" style="">
+    <path d="M13,18h-2v-2h2V18z M15,14H9v6h6V14L15,14z M19,9.3L19,9.3V4h-3v2.6v0L12,3L2,12h3l7-6.31L19,12h3L19,9.3z" style="fill: white;"></path>
+  </g>
+  <text id="VACHUŠKA" class="cls-2" x="1764.929" y="3568.236">VACHUŠKA</text>
+</svg>

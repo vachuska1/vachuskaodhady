@@ -30,7 +30,7 @@
       }
 
       .cls-3, .cls-4 {
-        fill: #fff;
+        fill: #F7E974;
         font-family: "BankGothic Lt BT";
         font-weight: 300;
       }
@@ -40,7 +40,7 @@
       }
 
       .cls-5 {
-        stroke: #fff;
+        stroke: #F7E974;
         stroke-width: 22.222px;
       }
     </style>

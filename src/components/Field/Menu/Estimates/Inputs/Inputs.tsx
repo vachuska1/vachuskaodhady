@@ -116,7 +116,7 @@ export const Inputs = () => {
 		if (message !== "") {
 			return [true, ""];
 		} else {
-			return [false, "Vyplňte Vačí zprávu."];
+			return [false, "Vyplňte Vaší zprávu."];
 		}
 	};
 

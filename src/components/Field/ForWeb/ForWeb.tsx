@@ -7,7 +7,7 @@ export const ForWeb = () => {
 		<div className="ForWeb">
 			<div className="ForWeb__Content">
 				<div className="ForWeb__Links">
-					Další odkazy
+					Co dál?
 					<NavLink to="odhady">
 						<div className="ForWeb__Row ForWeb__Color">Chci odhad</div>
 					</NavLink>
@@ -28,4 +28,3 @@ export const ForWeb = () => {
 		</div>
 	);
 };
-``;

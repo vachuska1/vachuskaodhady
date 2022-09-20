@@ -17,7 +17,7 @@ $headers =  "From:" . $email . "\r\n" .
     "MIME-Version: 1.0" . "\r\n" .
     "Content-Transfer-Encoding: 8bit" . "\r\n" .
     "Content-Type: text/html; charset=utf-8" . "\r\n";
-$toAdmin = "vachuska.alexander@gmail.com";
+$toAdmin = "odhadyvachuska@gmail.com";
 $subjectAdmin = '=?UTF-8?B?' . base64_encode('Dotaz na stránce VachuskaOdhady.cz') . '?=';
 $message = $name . ', ' . $email . ', ' . $number . ', ' . $info;
 

@@ -10,7 +10,7 @@ export const Menu = () => {
 			<div className="Menu">
 				<div className="Menu__Firstline">
 					<NavLink to="/Odhady">
-						<MenuCard classname="MenuCard MenuCard__One" image="./src/images/Content/Estimates.svg" />
+						<MenuCard classname="MenuCard MenuCard__One" image="./src/images/Content/Odhady.svg" />
 					</NavLink>
 					<NavLink to="/Cenik">
 						<MenuCard classname="MenuCard MenuCard__One" image="./src/images/Content/Yangs.svg" />
