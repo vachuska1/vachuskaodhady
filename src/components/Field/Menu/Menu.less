@@ -1,13 +1,30 @@
 .Menu {
+	max-width: 1000px;
+	min-height: calc(100vw - 600px);
+	margin: 0 auto;
 	color: red;
 	&__Firstline {
 		margin-top: 50px;
-		display: flex;
-		justify-content: space-around;
-		flex-wrap: wrap;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 20px;
+
+		a {
+			margin: 40px 0;
+			justify-self: center;
+			align-self: center;
+		}
+
+		@media only screen and (max-width: 1000px) {
+			grid-template-columns: repeat(3, 1fr);
+		}
+
+		@media only screen and (max-width: 750px) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+
+		@media only screen and (max-width: 450px) {
+			grid-template-columns: repeat(1, 1fr);
+		}
 	}
 }
-
-//grid-template:
-//". One . Two . Three ." 400px/
-//10vw 400px 10vw 400px 10vw 400px 10vw;
